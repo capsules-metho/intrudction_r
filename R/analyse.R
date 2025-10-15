@@ -1,6 +1,7 @@
-df <- read.csv("chemin/vers/data.csv")
-df <- readxl::read_excel("chemin/vers/data.xlsx")
-df <- readRDS("chemin/vers/data.rds")
+df <- read.csv("data/ces_1993.csv")
+df <- readxl::read_excel("data/ces_1993.xlsx")
+df <- readRDS("data/ces_1993.rds")
+df <- haven::read_sav("data/ces_1993.sav")
 
 # Installer les packages nécessaires
 install.packages("dplyr") # Manipulation de données
